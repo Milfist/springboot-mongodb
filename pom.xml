@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.milfist</groupId>
-    <artifactId>mongo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>mongo</name>
-    <description>Demo project for Spring Boot, MongoDB, Spring Data</description>
+    <artifactId>mongodb-fluentd</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>mongodb-fluentd</name>
+    <description>Demo project for Spring Boot, MongoDB, Spring Data, FluentD, AOP</description>
 
     <developers>
         <developer>
