@@ -14,6 +14,23 @@
     <name>mongo</name>
     <description>Demo project for Spring Boot, MongoDB, Spring Data</description>
 
+    <developers>
+        <developer>
+            <id>MilfisT</id>
+            <name>Miguel Anguita</name>
+            <email>milfist@gmail.com</email>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/Milfist/springboot-mongodb/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Travis-CI</system>
+        <url>https://travis-ci.org/Milfist/springboot-mongodb</url>
+    </ciManagement>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -32,11 +49,20 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.fluentd</groupId>
+            <artifactId>fluent-logger</artifactId>
+            <version>0.2.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

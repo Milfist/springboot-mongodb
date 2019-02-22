@@ -4,3 +4,8 @@ spring:
       database: "miguel"
       host: "127.0.0.1"
       port: 27017
+
+fluentd:
+  tag: "com.milfist.mongo"
+  host: "localhost"
+  port: 24224
