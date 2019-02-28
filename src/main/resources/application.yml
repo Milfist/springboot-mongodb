@@ -9,3 +9,17 @@ fluentd:
   tag: "com.milfist.mongo"
   host: "localhost"
   port: 24224
+
+logging:
+  level:
+    com:
+      milfist: TRACE
+    org:
+      springframework:
+        web: INFO
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
+            repository:
+              Query: DEBUG
